@@ -50,3 +50,100 @@
 ├── tsconfig.json
 ├── tsconfig.node.json
 └── vite.config.ts
+
+Getting Started
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/sidtriedcoding/Connective-buisness-networking.git
+cd Connective-buisness-networking
+Install dependencies
+Using npm:
+
+bash
+Copy
+Edit
+npm install
+Using Bun:
+
+bash
+Copy
+Edit
+bun install
+Running on Localhost
+Follow these steps to run the project locally:
+
+Check your .env configuration (if using Supabase or other environment variables).
+Create a .env file in the project root if it doesn’t exist:
+
+env
+Copy
+Edit
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-key
+Start the development server
+Using npm:
+
+bash
+Copy
+Edit
+npm run dev
+Using Bun:
+
+bash
+Copy
+Edit
+bun run dev
+Access in browser
+After starting, you’ll see an output like:
+
+arduino
+Copy
+Edit
+Local: http://localhost:5173/
+Open the URL in your browser to use the site.
+
+Configuration
+Supabase Setup:
+Ensure you have a Supabase account and project configured.
+Update .env with your keys before running locally.
+
+Build for production:
+
+bash
+Copy
+Edit
+npm run build
+or
+
+bash
+Copy
+Edit
+bun run build
+Serve files from the generated dist/ folder.
+
+Contributing
+Fork this repository
+
+Create your branch:
+
+bash
+Copy
+Edit
+git checkout -b feature/my-feature
+Commit your changes:
+
+bash
+Copy
+Edit
+git commit -m "Add new feature"
+Push to your branch:
+
+bash
+Copy
+Edit
+git push origin feature/my-feature
+Submit a pull request
+
