@@ -1,4 +1,4 @@
-# Connective Business Networking - Detailed Project Analysis
+# Connective Business Networking 
 
 ## Project Overview
 
